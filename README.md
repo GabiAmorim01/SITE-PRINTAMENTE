@@ -21,4 +21,4 @@ Todos os links abrem em nova aba. Não há coleta ou armazenamento de dados.
 
 ## Publicação
 
-Publique `index.html`, `styles.css` e `app.js` em uma hospedagem estática. O endereço público poderá ser colocado na bio do Instagram.
+Publique `index.html`, `styles.css`, `app.js` e a pasta `assets/` em uma hospedagem estática. O endereço público poderá ser colocado na bio do Instagram.

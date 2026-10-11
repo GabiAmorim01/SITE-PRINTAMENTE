@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none">
+<defs>
+ <linearGradient id="bg" x2="600" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#f0f4e5"/><stop offset="1" stop-color="#e0eac9"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="3" dy="7" stdDeviation="6" flood-color="#36552b" flood-opacity=".16"/></filter>
+ <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".6" fill="#7d925a" opacity=".16"/></pattern>
+ <path id="puzzle" d="M0 0h17c3 0 3-2 1-4-8-12 13-16 13-4 0 3-3 6-2 8h17v17c0 3 2 3 4 1 12-8 16 13 4 13-3 0-6-3-8-2v17H29c-3 0-3 2-1 4 8 12-13 16-13 4 0-3 3-6 2-8H0V29c0-3-2-3-4-1-12 8-16-13-4-13 3 0 6 3 8 2Z"/>
+</defs>
+<rect x="1" y="1" width="598" height="358" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="598" height="358" rx="28" fill="url(#dots)"/>
+<circle cx="300" cy="174" r="141" stroke="#9fb671" opacity=".22"/><circle cx="300" cy="174" r="119" stroke="#9fb671" opacity=".18"/>
+<!-- Envelope personalizado -->
+<g transform="translate(299 70) rotate(10 100 70)" filter="url(#shadow)">
+ <rect width="210" height="144" rx="5" fill="#fffaf0"/><path d="m0 0 105 82L210 0" fill="#e8e0ca"/><path d="m0 144 80-68h50l80 68" fill="#f6efd9"/><path d="M0 0 105 82 210 0" stroke="#d7ccb0"/>
+ <circle cx="105" cy="83" r="21" fill="#8ab119"/><path d="m96 83 6 6 12-13" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Cartão com a identidade da marca -->
+<g transform="translate(78 94) rotate(-10 117 75)" filter="url(#shadow)">
+ <rect width="235" height="150" rx="7" fill="#2998de"/><path d="M0 122c60-42 150-14 235-70v91a7 7 0 0 1-7 7H7a7 7 0 0 1-7-7Z" fill="#2188ce"/>
+ <g transform="translate(21 22) scale(.65)" stroke="#fff" stroke-width="2.8"><use href="#puzzle" fill="#8ab119" transform="translate(44 0) rotate(45)"/><use href="#puzzle" fill="#facb2c" transform="translate(5 39) rotate(45)"/></g>
+ <text x="20" y="100" font-family="Arial,sans-serif" font-weight="700" font-size="24" letter-spacing="-.8" fill="#fff">PRINTAMENTE</text><text x="21" y="120" font-family="Arial,sans-serif" font-size="7.5" letter-spacing="1" fill="#e3f2fc">IMPRIMINDO O QUE VOCÊ IMAGINA</text>
+</g>
+<!-- Etiqueta de embalagem -->
+<g transform="translate(324 190) rotate(9 79 62)" filter="url(#shadow)">
+ <path d="M0 24 24 0h132v125H0Z" fill="#facb2c"/><circle cx="20" cy="23" r="5" fill="#e1eacb"/><path d="M20 23c-28-37 18-60 25-20" stroke="#9b8b51" stroke-width="2"/>
+ <text x="32" y="57" font-family="Georgia,serif" font-size="22" fill="#5d572d">feito para</text><text x="33" y="82" font-family="Georgia,serif" font-style="italic" font-size="25" fill="#5d572d">encantar.</text><text x="34" y="104" font-family="Arial,sans-serif" font-size="7" letter-spacing="2" fill="#716733">PRINTAMENTE</text>
+</g>
+<!-- Adesivos personalizados -->
+<g transform="translate(100 244) rotate(-7 77 27)" filter="url(#shadow)">
+ <rect width="159" height="59" rx="7" fill="#fffdf7"/><circle cx="32" cy="30" r="20" fill="#8ab119"/><circle cx="79" cy="30" r="20" fill="#facb2c"/><circle cx="126" cy="30" r="20" fill="#2998de"/>
+ <path d="m23 30 6 6 12-12" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M79 39c-24-15-8-25 0-15 8-10 24 0 0 15Z" fill="#fff"/><path d="m116 36 10-12 10 12h-20Z" fill="#fff"/>
+</g>
+<g fill="#8bab34"><circle cx="63" cy="66" r="4"/><circle cx="530" cy="264" r="4"/><path d="M527 107v16m-8-8h16" stroke="#8bab34" stroke-width="2" stroke-linecap="round"/></g>
+<text x="300" y="338" text-anchor="middle" fill="#65774b" font-family="Arial,sans-serif" font-size="7.5" letter-spacing="2.3">SUA IDENTIDADE EM CADA IMPRESSÃO</text>
+</svg>
