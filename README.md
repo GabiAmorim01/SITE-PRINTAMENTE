@@ -14,7 +14,7 @@ python3 -m http.server 3000 --bind 0.0.0.0
 Links oficiais configurados em `printamenteLinks` no arquivo `app.js`:
 
 - Site de vendas: https://www.printamente.com.br
-- Shopee: https://shopee.com.br/printamente?categoryId=100632&entryPoint=ShopByPDP&itemId=58269094484
+- Shopee: https://shopee.com.br/printamente#product_list
 - WhatsApp: +55 31 97537-5289, com mensagem inicial.
 
 Todos os links abrem em nova aba. Não há coleta ou armazenamento de dados.

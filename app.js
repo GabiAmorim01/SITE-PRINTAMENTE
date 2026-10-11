@@ -2,7 +2,7 @@
 // Adicione apenas os endereços oficiais fornecidos pela Printamente.
 const printamenteLinks = {
   sales: 'https://www.printamente.com.br',
-  shopee: 'https://shopee.com.br/printamente?categoryId=100632&entryPoint=ShopByPDP&itemId=58269094484',
+  shopee: 'https://shopee.com.br/printamente#product_list',
 };
 document.getElementById('year').textContent = new Date().getFullYear();
 for (const [name, address] of Object.entries(printamenteLinks)) {
