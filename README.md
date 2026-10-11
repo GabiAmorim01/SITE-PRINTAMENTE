@@ -22,3 +22,7 @@ Todos os links abrem em nova aba. Não há coleta ou armazenamento de dados.
 ## Publicação
 
 Publique `index.html`, `styles.css`, `app.js` e a pasta `assets/` em uma hospedagem estática. O endereço público poderá ser colocado na bio do Instagram.
+
+## Imagem de destaque
+
+A imagem `assets/produtos-3d.png` foi gerada para ilustrar objetos de impressão 3D. Não é uma fotografia do estoque real da Printamente. Ela é exibida inteira, preservando sua proporção original.
